@@ -1,0 +1,1 @@
+To create to-do list app going to use vite @create react with not additional frameworks.
