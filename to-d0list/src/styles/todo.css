@@ -1,0 +1,88 @@
+.pageContainer{
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid black;
+    display: grid;
+}
+
+.mainContainer{
+    margin: auto auto;
+    width: auto;
+    height: auto;
+}
+
+.headContainer{
+    padding: 1rem 4rem;
+    border: 2px solid white;
+    margin-bottom: 3rem;
+
+    h2{
+        font-size: 3rem;
+    }    
+}
+
+.headContainer .inputContainer{
+    width: 100%;
+    background-color: #d1d5db;
+    display: flex;
+    border-radius: 10rem;
+
+    input{
+        color: black;
+        flex: 1;
+        background: transparent;
+        padding: 0.7rem;
+        border-radius: 3rem;
+        border: none;
+        outline: none;
+    }
+    button{
+        font-size: 1rem;
+        color: rgb(20, 20, 20);
+        border: none;
+        outline: none;
+        background-color: #fcd34d;
+        width: 60px;
+        border-radius: 3rem;
+        cursor: pointer;
+    }
+}
+
+
+.listContainer{
+    max-height: 500px;
+    max-width: 500px;
+    border: 2px solid black;
+    box-shadow: 2px 4px 6px rgb(20, 20, 20);
+    overflow-y: scroll;
+}
+
+.list{
+    display: flex;
+    padding: 0.6rem;
+    justify-content: space-between;
+
+    .material-icons-outlined{
+        padding-top: 0.6rem;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+}
+
+.inp{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0.6rem;
+    gap: 0.6rem;
+
+    input{
+        cursor: pointer;
+    }
+    span{
+        font-size: 2rem;
+    }
+}
+
+.strike-through{
+    text-decoration: line-through;
+}
